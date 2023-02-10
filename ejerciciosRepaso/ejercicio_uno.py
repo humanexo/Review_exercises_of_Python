@@ -1,6 +1,8 @@
 if __name__ == "__main__":
 
     nickname = input("Enter your name: ")
+
+
     age = int(input("Enter your age: "))
 
 

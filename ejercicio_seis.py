@@ -10,14 +10,20 @@ if __name__ == "__main__":
 
 
     for i in range (numbersOnTheList):
+
+
         list.append(random.randint(0,50))
 
 
     for number in list:
+
+
         sumOfTheNumbers += number
 
 
     print(list)
+
+
     print(sumOfTheNumbers)
 
 
