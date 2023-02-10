@@ -12,10 +12,10 @@ if __name__ == "__main__":
         list = []
 
 
-        range_number = int (input ("Enter the range of the numbers: ") )
+        rangeNumber = int (input ("Enter the range of the numbers: ") )
 
 
-        for i in range(range_number):
+        for i in range(rangeNumber):
 
 
             list.append (random.randrange (100) )
@@ -24,19 +24,19 @@ if __name__ == "__main__":
         print(f"The list is: {list} ")
 
 
-        sum_of_numbers = 0
+        sumOfNumbers = 0
 
 
         for number in list:
 
 
-            sum_of_numbers += number
+            sumOfNumbers += number
 
 
-        print (f"The sum of the list is: {sum_of_numbers} ")
+        print (f"The sum of the list is: {sumOfNumbers} ")
 
 
-        mean = sum_of_numbers / range_number
+        mean = sumOfNumbers / rangeNumber
 
 
         print(f"The mean of the list is: {mean} ")
